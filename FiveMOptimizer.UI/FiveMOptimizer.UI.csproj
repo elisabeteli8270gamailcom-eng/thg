@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FiveMOptimizer.Core\FiveMOptimizer.Core.csproj" />
+    <ProjectReference Include="..\FiveMOptimizer.Models\FiveMOptimizer.Models.csproj" />
+    <ProjectReference Include="..\FiveMOptimizer.Services\FiveMOptimizer.Services.csproj" />
+    <ProjectReference Include="..\FiveMOptimizer.Helpers\FiveMOptimizer.Helpers.csproj" />
+  </ItemGroup>
+
+</Project>
